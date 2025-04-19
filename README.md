@@ -7,3 +7,4 @@
 | # | Title | Difficulty | Skills |
 |---| ----- | ---------- | ------ |
 | 0237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | Medium | `Linked List` |
+| 3516 | [Find Closest Person](https://leetcode.com/problems/find-closest-person) | Easy | `Math` |
