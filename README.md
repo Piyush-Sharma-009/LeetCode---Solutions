@@ -6,6 +6,7 @@
 
 | # | Title | Difficulty | Skills |
 |---| ----- | ---------- | ------ |
+| 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | Easy | `Floyd's Cycle Finding Algorithm` `Hash Table` `Linked List` `Two Pointers` |
 | 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | Medium | `Floyd's Cycle Finding Algorithm` `Hash Table` `Linked List` `Two Pointers` |
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | Easy | `Linked List` `Recursion` `Stack` `Two Pointers` |
 | 0237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | Medium | `Linked List` |
