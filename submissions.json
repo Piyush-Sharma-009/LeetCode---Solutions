@@ -1,5 +1,15 @@
 [
   {
+    "id": 19,
+    "title": "Remove Nth Node From End of List",
+    "title_slug": "remove-nth-node-from-end-of-list",
+    "difficulty": "Medium",
+    "skills": [
+      "Linked List",
+      "Two Pointers"
+    ]
+  },
+  {
     "id": 141,
     "title": "Linked List Cycle",
     "title_slug": "linked-list-cycle",
