@@ -47,6 +47,17 @@
     ]
   },
   {
+    "id": 160,
+    "title": "Intersection of Two Linked Lists",
+    "title_slug": "intersection-of-two-linked-lists",
+    "difficulty": "Easy",
+    "skills": [
+      "Hash Table",
+      "Linked List",
+      "Two Pointers"
+    ]
+  },
+  {
     "id": 234,
     "title": "Palindrome Linked List",
     "title_slug": "palindrome-linked-list",
