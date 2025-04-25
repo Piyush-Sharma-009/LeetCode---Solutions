@@ -1,5 +1,16 @@
 [
   {
+    "id": 2,
+    "title": "Add Two Numbers",
+    "title_slug": "add-two-numbers",
+    "difficulty": "Medium",
+    "skills": [
+      "Linked List",
+      "Math",
+      "Recursion"
+    ]
+  },
+  {
     "id": 19,
     "title": "Remove Nth Node From End of List",
     "title_slug": "remove-nth-node-from-end-of-list",
