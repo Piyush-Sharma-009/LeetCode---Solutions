@@ -8,6 +8,7 @@
 |---| ----- | ---------- | ------ |
 | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | Medium | `Linked List` `Math` `Recursion` |
 | 0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | Medium | `Linked List` `Two Pointers` |
+| 0061 | [Rotate List](https://leetcode.com/problems/rotate-list) | Medium | `Linked List` `Two Pointers` |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | Easy | `Floyd's Cycle Finding Algorithm` `Hash Table` `Linked List` `Two Pointers` |
 | 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | Medium | `Floyd's Cycle Finding Algorithm` `Hash Table` `Linked List` `Two Pointers` |
 | 0148 | [Sort List](https://leetcode.com/problems/sort-list) | Medium | `Divide and Conquer` `Linked List` `Merge Sort` `Sorting` `Two Pointers` |
