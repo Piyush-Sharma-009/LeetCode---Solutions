@@ -11,6 +11,15 @@
     ]
   },
   {
+    "id": 9,
+    "title": "Palindrome Number",
+    "title_slug": "palindrome-number",
+    "difficulty": "Easy",
+    "skills": [
+      "Math"
+    ]
+  },
+  {
     "id": 19,
     "title": "Remove Nth Node From End of List",
     "title_slug": "remove-nth-node-from-end-of-list",
