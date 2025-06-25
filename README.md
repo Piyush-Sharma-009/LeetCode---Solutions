@@ -8,6 +8,7 @@
 |---| ----- | ---------- | ------ |
 | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | Medium | `Linked List` `Math` `Recursion` |
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | `Math` |
+| 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | Easy | `Hash Table` `Math` `String` |
 | 0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | Medium | `Linked List` `Two Pointers` |
 | 0061 | [Rotate List](https://leetcode.com/problems/rotate-list) | Medium | `Linked List` `Two Pointers` |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | Easy | `Floyd's Cycle Finding Algorithm` `Hash Table` `Linked List` `Two Pointers` |

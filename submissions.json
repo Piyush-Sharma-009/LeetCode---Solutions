@@ -20,6 +20,17 @@
     ]
   },
   {
+    "id": 13,
+    "title": "Roman to Integer",
+    "title_slug": "roman-to-integer",
+    "difficulty": "Easy",
+    "skills": [
+      "Hash Table",
+      "Math",
+      "String"
+    ]
+  },
+  {
     "id": 19,
     "title": "Remove Nth Node From End of List",
     "title_slug": "remove-nth-node-from-end-of-list",
