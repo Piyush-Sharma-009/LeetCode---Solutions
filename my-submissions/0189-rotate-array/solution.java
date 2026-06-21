@@ -1,22 +1,23 @@
 class Solution {
 
-    static void reverse(int[] arr, int l, int r){
-        while(l<r){
-            int temp = arr[l];
-            arr[l] = arr[r];
-            arr[r] = temp;
-            l++;
-            r--;
+    static void reverse(int[] arr, int left, int right){
+        while(left < right){
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left++;
+            right--;
         }
-        return ;
+        return;
     }
 
     public void rotate(int[] nums, int k) {
         int n = nums.length;
+        if(n <= 1) return;
         k = k%n;
-        reverse(nums,0,n - 1);
-        reverse(nums,0,k - 1);
-        reverse(nums,k,n- 1);
-        return ;
+        reverse(nums,0,n-1);
+        reverse(nums,0,k-1);
+        reverse(nums,k,n-1);
+        return;
     }
 }
