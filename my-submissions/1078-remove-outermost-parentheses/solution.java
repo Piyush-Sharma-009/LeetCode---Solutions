@@ -6,13 +6,11 @@ class Solution {
             if(i == '('){
                 if(cnt > 0){
                     res.append(i);
-                }
-                cnt++;
+                    }cnt++;
             }
-            else{
+            else if(i == ')'){
                 cnt--;
-                if(cnt > 0)
-                    res.append(i);
+                if(cnt >0) res.append(i);
             }
         }
         return res.toString();
