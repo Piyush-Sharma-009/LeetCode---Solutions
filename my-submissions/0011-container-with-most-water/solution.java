@@ -1,19 +1,20 @@
 class Solution {
     public int maxArea(int[] height) {
-        int left = 0;
-        int right = height.length - 1;
-        int maxarea  = 0;
-        while(left < right){
-            int h = Math.min(height[left],height[right]);
-            int w= right - left;
-            maxarea = Math.max(maxarea,h*w);
+        int l = 0, r = height.length -1;
+        int maxArea = 0;
+        while(l < r){
+            int area = Math.min(height[l], height[r])*(r-l);
+            maxArea = Math.max(maxArea, area);
 
-        if(height[left]<height[right]){
-            left++;
+            if(height[l] < height[r]){
+                l++;
+            }
+            else r--;
         }
-        else
-        right--;
-        }
-        return maxarea;
+        return maxArea;
     }
 }
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
