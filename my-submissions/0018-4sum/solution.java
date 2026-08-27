@@ -1,46 +1,36 @@
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> res = new ArrayList<>();
-        int n = nums.length;
-
-        if(n <=3 ) return res;
-
+        HashSet<List<Integer>> st = new HashSet<>();
         Arrays.sort(nums);
-
-        for(int i = 0;i<n-3;i++){
-
-            if(i>0 && nums[i] == nums[i - 1]) continue;
-            for(int j = i +1;j<n-2;j++){
-
-            if(j > i + 1 && nums[j] == nums[j-1]) continue;
-                    
-                int left = j + 1;
-                int right = n - 1;
-
-                while(left < right){
-                    long sum =(long) nums[i] + nums[j] + nums[left] + nums[right];
-                        // List<Integer> curr = new ArrayList<>();
+        int n  = nums.length;
+        for(int i =0;i<n-1;i++){
+            for(int j = i+1;j<n;j++){
+                int k = j+1;
+                int l = n-1;
+                while(k<l){
+                    long sum =(long) nums[i] + nums[j] + nums[k] + nums[l];
                     if(sum == target){
-                        // curr.add(nums[i]);
-                        // curr.add(nums[j]);
-                        // curr.add(nums[left]);
-                        // curr.add(nums[right]);
-                        // if(!res.contains(curr));
-                        // res.add(curr);
-                        res.add(Arrays.asList(nums[i],nums[j],nums[left],nums[right]));
-
-                        while(left < right && nums[left] == nums[left + 1]) left++;
-                        while(left < right && nums[right] == nums[right - 1]) right--;
-
-                        left++;
-                        right--;
+                        List<Integer> li = new ArrayList<>();
+                        li.add(nums[i]);
+                        li.add(nums[j]);
+                        li.add(nums[k]);
+                        li.add(nums[l]);
+                        Collections.sort(li);
+                        st.add(li);
+                        k++;
+                        l--;
                     }
-                    else if(sum > target) right--;
-                    else left ++;
+                    else if(sum < target) k++;
+                    else l--;
                 }
-
             }
-        }
+        }   
+        res.addAll(st);
         return res;
     }
 }
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
